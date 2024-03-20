@@ -2,12 +2,12 @@
 
 .calc{
     border-radius: 5px;
-    max-width: 600px;
-    height: 600px;
+    max-width: 170px;
+    height: 355px;
     background-color: rgb(245, 21, 13);
     padding: 0;
-    margin: 10%;
-
+    margin: auto;
+    margin-top: 100px;
 
 }
 .center{
@@ -15,14 +15,29 @@
     padding-top: 7px;
     font-size: 20px;
 }
+
 .display{
     background-color: black;
     height: 50px;
-    width: 580px;
+    width: 150px;
     font-family: "Seven Segment";
     color: white;
     text-align: right;
     font-size: 30px;
     padding: 10px;
+}
 
+.tastiera{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pulsante{
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.pulsante operatore{
+    background-color: #fa0;
 }
