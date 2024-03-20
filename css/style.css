@@ -26,10 +26,13 @@
     font-size: 30px;
     padding: 10px;
 }
-
+.area{
+    display: inline;
+}
 .tastiera{
     display: flex;
     flex-wrap: wrap;
+    width: 150px; 
 }
 .pulsante{
     background-color: #ddd;
@@ -38,9 +41,18 @@
     padding: 10px;
     margin: 5px;
 }
-.pulsante operatore{
-    background-color: #fa0;
+.inline{
+    flex-wrap: wrap;
+    display: inline-block;
+}
+.operatore{
+    
+    height: 20px;
+    width: 20px;
 }
 .zero{
-    inline-size: 5px;
+    inline-size: 52px;
+}
+.orange{
+    background-color: orange;
 }
