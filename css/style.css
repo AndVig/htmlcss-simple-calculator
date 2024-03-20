@@ -4,7 +4,7 @@
     border-radius: 5px;
     max-width: 170px;
     height: 355px;
-    background-color: rgb(245, 21, 13);
+    background-color: rgb(180, 180, 180);
     padding: 0;
     margin: auto;
     margin-top: 100px;
@@ -40,4 +40,7 @@
 }
 .pulsante operatore{
     background-color: #fa0;
+}
+.zero{
+    inline-size: 5px;
 }
